@@ -1,0 +1,112 @@
+/* Responsive Navbar */
+@media (max-width: 1024px) {
+    .banner-content{
+        width: 80%;
+    }
+    .multiple-award h2{
+        font-size: 28px !important;
+    }
+    .btn-gradient{
+        width: 60% !important;
+    }
+    .user-div-inner{
+        width: 85% !;
+    }
+    .razorpay{
+        width: 50% !important;
+    }
+    .same-div-sec{
+        width: 90% !important;
+    }
+    .vedio-div1{
+        width: 90% !important;
+    }
+    
+}
+@media (max-width: 992px) {
+    .navbar-brand {
+      height: 60px;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar-brand {
+      height: 60px;
+    }
+    .masterclass {
+      font-size: 20px;
+    }
+    .banner{
+        height: 75vh !important;
+    }
+    .banner-content2{
+        font-size: 1rem !important;
+    }
+    .banner-content .learndiscove{
+        font-size: 30px !important;
+    }
+    .banner video {
+        width: 60%;
+        margin-top: 30px;
+    }
+    .user-div-inner{
+        width: 80%;
+    }
+    .btn-gradient{
+        width: 75% !important;
+    }
+    .razorpay{
+        width: 70% !important;
+    }
+    .payemnt-method1{
+        width: 55% !important;
+    }
+  }
+  @media (max-width: 425px) {
+    .masterclass {
+      display: none;
+    }
+    .reservebtn {
+      padding-right: 50px;
+    }
+    .banner-content .learndiscove{
+        font-size: 20px !important;
+    }
+    .banner-content2{
+        width: 95% !important;
+    }
+    .banner video{
+        width: 95% !important;
+    }
+    .content-div1{
+        width: 100% !important;
+    }
+    .content-div1 img{
+        width: 50px !important;
+    }
+    .inner-div1{
+        flex-direction: column;
+    }
+    .information{
+        flex-direction: column;
+    }
+    .content{
+        width: 80%;
+    }
+    .user-company-logo{
+        display: none;
+    }
+    .btn-register{
+        display: none !important;
+    }
+    
+  }
+
+  @media (max-width:375px) {
+    .btn-gradient{
+        width: 100% !important;
+    }
+    .banner video{
+        margin-top: 50px !important;
+    }
+  }
+  

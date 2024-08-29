@@ -1,0 +1,288 @@
+.navbar-brand {
+    height: 60px;
+    background-color: rgb(33, 182, 170); /* Adjust the logo size */
+  }
+
+  .reserve-button {
+    background: linear-gradient(
+      to right,
+      #45e85e,
+      #7bfeed
+    ); /* Linear gradient */
+    border: none;
+    color: white;
+    /* padding: 10px 20px; */
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+  }
+
+  .reserve-button:hover {
+    background: linear-gradient(to right, #7bfeed, #45e85e);
+    justify-content: space-between; /* Inverse gradient on hover */
+    color: white;
+  }
+
+  .banner {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(135deg, #071e77, #1b0a7ead);
+    display: flex;
+    text-align: center;
+    color: white;
+  }
+
+  .banner-content {
+    width: 60%;
+  }
+  .learndiscove {
+    font-size: 40px !important;
+    font-weight: 700;
+  }
+  .banner-content2 {
+    width: 62%;
+  }
+  .banner-content2 p {
+    font-size: 1.5rem;
+  }
+  .banner video {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    top: 60%;
+  }
+
+  /* .banner p:first-of-type {
+        font-size: 2rem;
+    } */
+  .result {
+    color: yellow;
+  }
+
+  .full-width-section {
+    width: 100%;
+    background-color: #fff; /* Optional background color */
+    padding: 20px 0;
+    margin-top: 15%;
+  }
+  .content-div1 {
+    max-width: 80%; /* Max width of the centered div */
+    margin: 0 auto; /* Center the div */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 0.2); /* Add shadow */
+    padding: 20px;
+    background-color: #fff; /* Background color for better shadow visibility */
+    border-radius: 8px; /* Optional rounded corners */
+  }
+
+  .content-div1 img {
+    width: 70px;
+  }
+  .awards {
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 0.2);
+  }
+  .centered-container {
+    max-width: 800px; /* Max width of the main container */
+    margin: 0 auto; /* Center the main container */
+    padding: 20px;
+  }
+  .inner-div {
+    width: 320px;
+    height: 100px;
+    border: 2px solid blue; /* Blue border */
+    background: linear-gradient(45deg, #071e77, #1b0a7ead);
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    text-align: center;
+    background-color: #f8f9fa; /* Light background color */
+    margin-bottom: 20px; /* Space between divs */
+  }
+  .btn-register {
+    width: 80%;
+    box-shadow: 0 1px 12px rgba(1, 1, 1, 0.4);
+    border-radius: 8px;
+    background: linear-gradient(to right, #45e85e, #7bfeed);
+  }
+  .btn-register button {
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  
+  .payemnt-method{
+    width: 100px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #fff;
+
+  }
+  .payemnt-method img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .image-container img {
+    margin: 10px;
+    max-width: 11%;
+    height: auto;
+    gap: 25px;
+  }
+
+  .gradient-div {
+    width: 100%;
+    background: linear-gradient(135deg, #071e77, #1b0a7ead);
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .content-div {
+    width: 280px;
+    height: 180px;
+    background: linear-gradient(135deg, #22dce3, #ae5ed0);
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .multiple-award {
+    max-width: 50%;
+    /* background-color: #071e77; */
+  }
+  .multiple-award h2 {
+    font-size: 35px !important;
+  }
+
+  .gradient-btn {
+    background: linear-gradient(45deg, #2ae659, #3cf5fb);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #000;
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .gradient-btn:hover {
+    transform: scale(1.05);
+  }
+
+  .information-section {
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  .content {
+    width: 35%;
+    /* height: 200px; */
+    /* background-color: #ae5ed0; */
+  }
+  
+  .user{
+    background: linear-gradient(135deg, #22dce3, #ae5ed0);
+  }
+
+  .user-company-logo{
+    box-shadow: 0 1px 12px rgba(1, 1, 1, 0.4);
+    border-radius: 8px;
+  }
+  .user-company img{
+    width: 60px;
+    height: 40px;
+  }
+
+  .user-div-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-div-inner{
+    width: 70%;
+    /* justify-content: space-evenly; */
+    /* background-color: #071e77; */
+  }
+
+  .user-div{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border: 2px solid white;
+    box-shadow: 1px 5px 16px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(135deg, #22dce3, #ae5ed0);
+    border-radius: 8px;
+  }
+
+  .user-div .user-div-child{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #22dce3, #ae5ed0);
+    
+  }
+
+  .user-div .user-div-child1{
+    position: absolute;
+    left: 70px;
+    top: 90px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #22dce3, #ae5ed0);
+    
+  }
+
+  .same-div{
+    /* position: relative; */
+    width: 260px;
+    height: 260px;
+    /* border: 2px solid white; */
+    /* box-shadow: 1px 5px 16px rgba(0, 0, 0, 0.7); */
+    background: linear-gradient(135deg, #22dce3, #ae5ed0);
+    border-radius: 8px; 
+  }
+
+  .footer-section{
+    width: 100%;
+    background: linear-gradient(135deg, #071e77, #1b0a7ead);
+
+  }
+
+  .vedio-div{
+    height: 120px;
+    width: 250px;
+    background-color: #fff;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  .btn-play{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
